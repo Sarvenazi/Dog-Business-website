@@ -1,0 +1,163 @@
+.header {
+  background-color: white;
+  height: 70px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  z-index: 100;
+}
+ul {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 8px;
+  list-style-type: none;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/bg.png);
+  object-fit: contain;
+  background-color: rgb(40, 40, 107);
+  background-size: cover;
+  height: 360px;
+  margin-bottom: 40px;
+}
+
+.profile {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+a {
+  color: #000;
+}
+
+.firstdiv {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+h1,
+.descp {
+  color: white;
+}
+
+.aboutpic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.row {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  /* margin-top: 50px; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.row p {
+  text-align: center;
+  justify-content: center;
+}
+
+.whypic1 {
+  height: 250px;
+  width: 400px;
+}
+
+.sm1 {
+  height: 200px;
+  width: 320px;
+  padding-right: 25px;
+}
+
+.why1 {
+  justify-content: left;
+  text-align: left;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url(images/bg.png);
+  object-fit: contain;
+  background-color: rgb(40, 40, 107);
+  background-size: cover;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.whyimagediv {
+  justify-content: right;
+  text-align: right;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.why2 {
+  justify-content: left;
+  text-align: left;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: lightgray;
+  object-fit: contain;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.sm2 {
+  height: 250px;
+  width: 300px;
+}
+
+.why3 {
+  justify-content: left;
+  text-align: left;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url(images/bg.png);
+  object-fit: contain;
+  background-color: rgb(40, 40, 107);
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.whypic3 {
+  height: 250px;
+  width: 350px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.aboutpic1 {
+  height: 150px;
+  width: 180px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.aboutpic2 {
+  height: 150px;
+  width: 180px;
+  margin-left: 10px;
+}
