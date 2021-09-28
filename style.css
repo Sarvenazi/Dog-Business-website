@@ -22,9 +22,10 @@ li {
   display: flex;
   justify-content: center;
   background-image: url(images/bg.png);
-  object-fit: contain;
+  /* object-fit: cover; */
   background-color: rgb(40, 40, 107);
   background-size: cover;
+  /* background-repeat: no-repeat; */
   height: 360px;
   margin-bottom: 40px;
 }
@@ -73,17 +74,20 @@ h1,
   text-align: center;
   justify-content: center;
 }
-
+/* 
 .whypic1 {
   height: 250px;
   width: 400px;
-}
+} */
 
-.sm1 {
+.whypic1 {
+  width: 100%;
+}
+/* .sm1 {
   height: 200px;
   width: 320px;
   padding-right: 25px;
-}
+} */
 
 .why1 {
   justify-content: left;
@@ -123,9 +127,13 @@ h1,
   padding-left: 30px;
 }
 
-.sm2 {
+/* .sm2 {
   height: 250px;
   width: 300px;
+} */
+
+.whypic2 {
+  width: 100%;
 }
 
 .why3 {
@@ -143,21 +151,27 @@ h1,
 }
 
 .whypic3 {
-  height: 250px;
-  width: 350px;
-  padding-top: 10px;
-  padding-left: 10px;
+  /* height: 250px; */
+  width: 100%;
+  /* padding: 20px; */
+  /* padding-right: 20px; */
 }
 
 .aboutpic1 {
-  height: 150px;
-  width: 180px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  width: 50%;
+  margin-right: 10px;
+  object-fit: contain;
+  /* margin-bottom: 10px;
+  margin-left: 10px; */
 }
 
 .aboutpic2 {
-  height: 150px;
-  width: 180px;
-  margin-left: 10px;
+  width: 50%;
+  object-fit: contain;
+  /* margin-left: 10px; */
+}
+
+.contactimg {
+  display: flex;
+  flex-direction: row;
 }
